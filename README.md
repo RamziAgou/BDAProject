@@ -38,7 +38,7 @@ First of all we were on a Linux operating system, but it might also works easily
 
 > Note : You will maybe need to install some packages depend of what you don't have. If you get error with "No module named kafka" for example you just have to pip install kafka
 
-- Here the topic is twitterstream, if you want to change its name you can change it in the [twitter_streaming.py](kafka-2.7.0-src/twitter_streaming.py). You can also change the subject of the search, we use "Vaccine" but it can be everything else.
+- Here the topic is twitterstream, if you want to change its name you can change it in the **[twitter_streaming.py]**(kafka-2.7.0-src/twitter_streaming.py). You can also change the subject of the search, we use "Vaccine" but it can be everything else.
 
 - - Now that Kafka streaming is working, we have to make Spark connecting to this stream :
 - - To that you just have the execute the following command (this time in your base project directory): 
@@ -47,9 +47,11 @@ First of all we were on a Linux operating system, but it might also works easily
      
      > Note : You will maybe need to install some packages depend of what you don't have. If you get error with "No module named tweepy" for example you just have to pip3 install tweepy
      
-- Now you should see tweets and just below the beginning of the tweet (often the user's name) and its prediction. For the prediction you should know that 0 = negative sentiment, 2 = neutral sentiment, 4 = positive sentiment. All the tweets and prediction are saved in the [stream_data](stream_data) folder.
+- Now you should see tweets and just below the beginning of the tweet (often the user's name) and its prediction. For the prediction you should know that 0 = negative sentiment, 2 = neutral sentiment, 4 = positive sentiment. All the tweets and prediction are saved in the **[stream_data]**(stream_data) folder.
 
 
 ## More 
 
-In the github you also have the model that we trained in the 
+In the github you also have the model that we trained in the **[train_model.py]**(train_model.py).
+
+The data we get from kaggle, here is the link https://www.kaggle.com/kazanova/sentiment140
