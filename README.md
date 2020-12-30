@@ -36,4 +36,4 @@ First of all we were on a Linux operating system, but it might also works easily
 
 > ./bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --from-beginning
 
-- Here the topic is twitterstream, if you want to change its name you can change it in the [twitter_streaming.py](twitter_streaming.py)
+- Here the topic is twitterstream, if you want to change its name you can change it in the [twitter_streaming.py](kafka-2.7.0-src/twitter_streaming.py)
