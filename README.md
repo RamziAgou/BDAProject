@@ -13,5 +13,9 @@ First of all we were on a Linux operating system, but it might also works easily
 - For running Kafka, first, we need to start the zookeeper and then Kafka server :
 - -  Run Zookeeper : in the Kafka installation folder, use the following command to start the zookeeper server 
 
-        > $bin/zookeeper-server-start.sh config/zookeeper.properties
+        > **$bin/zookeeper-server-start.sh config/zookeeper.properties**
+        
+- - Start Kafka server: Use the following command to run Kafka
+        
+        > **$bin/kafka-server-start.sh config/server.properties**
     
