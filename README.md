@@ -40,7 +40,7 @@ First of all we were on a Linux operating system, but it might also works easily
 
 - Here the topic is twitterstream, if you want to change its name you can change it in the [twitter_streaming.py](kafka-2.7.0-src/twitter_streaming.py). You can also change the subject of the search, we use "Vaccine" but it can be everything else.
 
--- Now that Kafka streaming is working, we have to make Spark connecting to this stream :
+- - Now that Kafka streaming is working, we have to make Spark connecting to this stream :
 - - To that you just have the execute the following command (this time in your base project directory): 
 
      > python3 spark_streaming.py
