@@ -32,7 +32,7 @@ First of all we were on a Linux operating system, but it might also works easily
 
 > We let our authentification here for you M.LEONARD but we tend to delete it after your correction
 
-- Now you can already see your streaming flow with the following command (still on the kafka installation folder): 
+- Now you can already see your streaming flow with the following command (still on the kafka installation folder). You should see tweets displaying on your console now: 
 
 > python twitter_streaming.py
 
