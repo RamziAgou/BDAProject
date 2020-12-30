@@ -13,9 +13,12 @@ First of all we were on a Linux operating system, but it might also works easily
 - For running Kafka, first, we need to start the zookeeper and then Kafka server :
 - -  Run Zookeeper : in the Kafka installation folder, use the following command to start the zookeeper server 
 
-        > **$bin/zookeeper-server-start.sh config/zookeeper.properties**
+        > **./bin/zookeeper-server-start.sh config/zookeeper.properties**
+        > Note : You can check the zookeeper.properties file if you want to change the client port (2181 by default)
         
 - - Start Kafka server: Use the following command to run Kafka
         
-     > **$bin/zookeeper-server-start.sh config/zookeeper.properties**
+     > **./bin/kafka-server-start.sh config/server.properties**
+     > Note : You can also check the server.properties file if you want to change the zookeeper to connect, or the directory of the logs files etc...
+     
     
