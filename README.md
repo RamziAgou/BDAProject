@@ -14,11 +14,18 @@ First of all we were on a Linux operating system, but it might also works easily
 - -  Run Zookeeper : in the Kafka installation folder, use the following command to start the zookeeper server 
 
         > **./bin/zookeeper-server-start.sh config/zookeeper.properties**
+        
         > Note : You can check the zookeeper.properties file if you want to change the client port (2181 by default)
         
 - - Start Kafka server: Use the following command to run Kafka
         
      > **./bin/kafka-server-start.sh config/server.properties**
+     
      > Note : You can also check the server.properties file if you want to change the zookeeper to connect, or the directory of the logs files etc...
      
     
+- Now to access Twitter streaming APIs, we need to sign in for Twitter developer account and get the following OAuth authentification details : 
+- - CustomerKey
+- - CustomerSecret
+- - AccessToken
+- - AccessTokenSecret
