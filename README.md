@@ -41,4 +41,4 @@ First of all we were on a Linux operating system, but it might also works easily
 -- Now that Kafka streaming is working, we have to make Spark connecting to this stream :
 - - To that you just have the execute the following command (this time in your base project directory): 
 
-        > python3 spark_streaming.py
+> python3 spark_streaming.py
