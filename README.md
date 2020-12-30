@@ -41,4 +41,6 @@ First of all we were on a Linux operating system, but it might also works easily
 -- Now that Kafka streaming is working, we have to make Spark connecting to this stream :
 - - To that you just have the execute the following command (this time in your base project directory): 
 
-> python3 spark_streaming.py
+     > python3 spark_streaming.py
+     
+     > Note : You will maybe need to install some packages depend of what you don't have. If you get error with "No module named tweepy" for example you just have to pip3 install tweepy
