@@ -17,5 +17,5 @@ First of all we were on a Linux operating system, but it might also works easily
         
 - - Start Kafka server: Use the following command to run Kafka
         
-        > **$bin/kafka-server-start.sh config/server.properties**
+     > **$bin/zookeeper-server-start.sh config/zookeeper.properties**
     
