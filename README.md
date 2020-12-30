@@ -4,7 +4,7 @@ This project is a engineering student's project. It's a big data ecosystem proje
 The goal of this project is to use big data tools to create and train a prediction model. In our case, we chose Twitter Sentiment Analysis.
 During this project, we used some tools like Kafka and Spark.
 
-## Prerequisites
+## What to do
 
 For this project you will need to install and setup some tools to use all of the aspect of the project.
 First of all we were on a Linux operating system, but it might also works easily on MAC.
@@ -29,3 +29,9 @@ First of all we were on a Linux operating system, but it might also works easily
 - - CustomerSecret
 - - AccessToken
 - - AccessTokenSecret
+
+> We let our authentification here for you M.LEONARD but we tend to delete it after your correction
+
+- Now you can already see your streaming flow with the following command : 
+
+> ./bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Twitter-test --from-beginning
