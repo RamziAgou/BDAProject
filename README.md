@@ -1,5 +1,6 @@
 # BDEProject
 
+AGOUGILE Ramzi - DO BARREIRO Jordan - BOUTAKHOT Jonathan
 This project is a engineering student's project. It's a big data ecosystem project.
 The goal of this project is to use big data tools to create and train a prediction model. In our case, we chose Twitter Sentiment Analysis.
 During this project, we used some tools like Kafka and Spark.
