@@ -12,5 +12,6 @@ First of all we were on a Linux operating system, but it might also works easily
 - The Kafka installation folder is already on the github, you just have to clone the repository.
 - For running Kafka, first, we need to start the zookeeper and then Kafka server :
 - -  Run Zookeeper : in the Kafka installation folder, use the following command to start the zookeeper server 
+
         > $bin/zookeeper-server-start.sh config/zookeeper.properties
     
